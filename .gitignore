@@ -1,0 +1,10 @@
+# secrets
+.env
+*.local.json
+# Azurite data
+__azurite_db*
+__blobstorage__/
+__queuestorage__/
+# Bicep build output
+*.compiled.json
+.vscode/
